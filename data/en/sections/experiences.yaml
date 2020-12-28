@@ -1,0 +1,74 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: MSD Czech Republic
+    url: "https://www.msd.cz/en/about-us/msd-czech-republic.xhtml"
+    location: Prague, Czech Republic
+    # company overview
+    overview: Part of Attack Surface Reduction at MSD, in the role of Vulnerability Analyst.
+  positions:
+  - designation: Vulnerability Analyst
+    start: July 2020
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Vulnerability Research
+    - Tracking and remediation of vulnerabilities
+    - Qualys, Kenna, Splunk, Shodan
+    - Python Automation
+
+- company:
+    name: SAP Concur
+    url: "https://www.concur.com/"
+    location: Prague, Czech Republic
+    overview: Working under the k8s team in SAP Concur. 
+  positions:
+  - designation: Kubernetes Administration and Monitoring
+    start: July 2019
+    end: june 2020
+    responsibilities:
+    - Monitoring of Kubernetes clusters using Sysdig
+    - Troubleshooting Sysdig deployoment accros AWS Accounts
+    - User support on K8s 
+    - Sysdig dashboard/alert automation
+
+- company:
+    name: Smartwork Albania
+    url: "https://smartworknet.eu/about-us/"
+    location: Tirana, Albania
+    overview: Startup company mainly focused in ERP implementations, .NET and SAP. 
+  positions:
+  - designation: System Administrator
+    start: Sep 2017
+    end: Sep 2018
+    responsibilities:
+    - Creating DEMO environments SAP ABAP developer Edition, Microsoft Dynamics AX 2012 R3, Microsoft Dynamics NAV
+    - Zabbix Monitoring setup in CentOS 7
+    - Creating, Configuring and Maintaining OTRS Ticketing System on CentOS 7
+    - Network administration of virtual and private networks - Fortigate 100E, FortiAP, FortiCLient, pfsense, Mikrotik
+
+- company:
+    name: Deloitte Albania and Kosova
+    url: "https://www2.deloitte.com/al/sq.html"
+    location: Tirana, Albania
+    overview: Microsoft Dynamics AX 2012 R3 implementations
+  positions:
+  - designation: Dynamics AX Administrator
+    start: Aug 2016
+    end: Sep 2017
+    responsibilities:
+    - Installation and configuration of Microsoft's ERP Dynamics AX.
+    - Maintaining Dynamics AX databases and performing maintenance plans to MS SQL Server.
+    - Moving Dynamics AX between environments and domains.
+    - Hyper-V management.

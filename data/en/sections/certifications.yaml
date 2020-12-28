@@ -1,0 +1,22 @@
+# section information
+section:
+  name: Certifications
+  id: achievements
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your achievements achievements
+achievements:
+- title: AWS Cloud Practitioner
+  image: /images/sections/achievements/aws.jpg
+  summary: https://www.youracclaim.com/badges/a0c497f4-634e-43dd-8079-457f6a090e8b.
+- title: Azure Fundamentals
+  image: /images/sections/achievements/azure.png
+  summary: https://www.youracclaim.com/badges/eff0bb32-4418-46e7-899c-ae244dbd8a74.
+- title: Docker Essentials
+  image: /images/sections/achievements/docker.png
+  summary: https://www.youracclaim.com/badges/86a2a898-1aad-4095-868e-da8a8e9fb879
+

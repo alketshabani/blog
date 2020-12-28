@@ -1,0 +1,69 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2020-11-25 16:55 CET
+NSE: Loaded 153 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 16:55
+Completed NSE at 16:55, 0.00s elapsed
+Initiating NSE at 16:55
+Completed NSE at 16:55, 0.00s elapsed
+Initiating NSE at 16:55
+Completed NSE at 16:55, 0.00s elapsed
+Initiating Parallel DNS resolution of 1 host. at 16:55
+Completed Parallel DNS resolution of 1 host. at 16:55, 0.06s elapsed
+Initiating Connect Scan at 16:55
+Scanning a6016e00e64bf54ad.awsglobalaccelerator.com (75.2.34.130) [1000 ports]
+Discovered open port 443/tcp on 75.2.34.130
+Discovered open port 80/tcp on 75.2.34.130
+Increasing send delay for 75.2.34.130 from 0 to 5 due to 11 out of 15 dropped probes since last increase.
+Completed Connect Scan at 16:55, 25.32s elapsed (1000 total ports)
+Initiating Service scan at 16:55
+Scanning 2 services on a6016e00e64bf54ad.awsglobalaccelerator.com (75.2.34.130)
+Completed Service scan at 16:55, 5.01s elapsed (2 services on 1 host)
+NSE: Script scanning 75.2.34.130.
+Initiating NSE at 16:55
+Stats: 0:00:51 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+NSE: Active NSE Script Threads: 1 (1 waiting)
+NSE Timing: About 99.64% done; ETC: 16:56 (0:00:00 remaining)
+Completed NSE at 16:56, 21.24s elapsed
+Initiating NSE at 16:56
+Stats: 0:00:52 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+NSE: Active NSE Script Threads: 1 (1 waiting)
+NSE Timing: About 93.75% done; ETC: 16:56 (0:00:00 remaining)
+Completed NSE at 16:56, 1.11s elapsed
+Initiating NSE at 16:56
+Completed NSE at 16:56, 0.00s elapsed
+Nmap scan report for a6016e00e64bf54ad.awsglobalaccelerator.com (75.2.34.130)
+Host is up (0.016s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE    VERSION
+80/tcp  open  tcpwrapped
+|_http-server-header: awselb/2.0
+443/tcp open  tcpwrapped
+|_http-server-header: awselb/2.0
+| ssl-cert: Subject: commonName=oos-test.msd-korea.com/organizationName=Merck Sharp & Dohme Corp./stateOrProvinceName=New Jersey/countryName=US
+| Subject Alternative Name: DNS:oos-test.msd-korea.com, DNS:kiims-test.msd-korea.com
+| Issuer: commonName=Sectigo RSA Organization Validation Secure Server CA/organizationName=Sectigo Limited/stateOrProvinceName=Greater Manchester/countryName=GB
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2020-05-01T00:00:00
+| Not valid after:  2021-05-01T23:59:59
+| MD5:   a58c 0a38 0777 5b25 548a 0430 6336 c112
+|_SHA-1: c3b0 0c65 05e2 9d50 d69f 70da b453 818a ada1 4482
+|_ssl-date: TLS randomness does not represent time
+| tls-alpn: 
+|   h2
+|_  http/1.1
+| tls-nextprotoneg: 
+|   h2
+|_  http/1.1
+
+NSE: Script Post-scanning.
+Initiating NSE at 16:56
+Completed NSE at 16:56, 0.00s elapsed
+Initiating NSE at 16:56
+Completed NSE at 16:56, 0.00s elapsed
+Initiating NSE at 16:56
+Completed NSE at 16:56, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 53.12 seconds
