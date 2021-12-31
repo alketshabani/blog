@@ -22,3 +22,6 @@ achievements:
 - title: Comptia Security +
   image: /images/sections/achievements/comptia-security-ce-certification.png
   summary: https://www.credly.com/earner/earned/badge/d6f2bc6a-92bc-4478-89a1-5a5a5d4e45b8
+- title: Azure Security Engineer Associate
+  image: /images/sections/achievements/microsoft-certified-azure-security-engineer-associate.png
+  summary: https://www.credly.com/earner/earned/badge/d6f2bc6a-92bc-4478-89a1-5a5a5d4e45b8
