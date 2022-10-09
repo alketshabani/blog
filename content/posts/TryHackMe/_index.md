@@ -1,9 +1,9 @@
 ---
-title: TryHackME Rooms
+title: TryHackMe Rooms
 menu:
   sidebar:
-    name: TryHackME
-    identifier: TryHackME
+    name: TryHackMe
+    identifier: TryHackMe
     weight: 20
 ---
 

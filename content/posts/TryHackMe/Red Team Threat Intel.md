@@ -6,7 +6,7 @@ menu:
   sidebar:
     name: Red Team Threat Intel 
     identifier: rtti
-    parent: TryHackME
+    parent: TryHackMe
     weight: 10
 
 tags: ["Markdown","Content Organization","Multi-lingual"]

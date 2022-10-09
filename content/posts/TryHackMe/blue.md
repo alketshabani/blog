@@ -6,7 +6,7 @@ menu:
   sidebar:
     name: Blue 
     identifier: blue
-    parent: TryHackME
+    parent: TryHackMe
     weight: 10
 
 tags: ["Markdown","Content Organization","Multi-lingual"]
