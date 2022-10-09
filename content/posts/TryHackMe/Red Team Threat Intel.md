@@ -1,11 +1,11 @@
 ---
-title: "Blue"
+title: "Red Team Threat Intel"
 date: 2022-10-09T08:06:25+06:00
 description: Sample post with multiple images, embedded video ect.
 menu:
   sidebar:
-    name: Blue 
-    identifier: blue
+    name: Red Team Threat Intel 
+    identifier: rtti
     parent: TryHackME
     weight: 10
 
