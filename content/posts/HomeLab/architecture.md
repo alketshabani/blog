@@ -20,3 +20,5 @@ This sample post tests the followings:
 - Different media rendering like image, tweet, YouTube video, Vimeo video etc.
 
 ### Image Sample
+
+image: /posts/introduction/arch.png
