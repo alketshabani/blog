@@ -21,4 +21,4 @@ This sample post tests the followings:
 
 ### Image Sample
 
-image: /posts/introduction/arch.png
+![Image1](images/arch.png)
