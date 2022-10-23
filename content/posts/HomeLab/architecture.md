@@ -22,3 +22,6 @@ This sample post tests the followings:
 ### Image Sample
 
 ![Image1](images/arch.png)
+
+
+{{< img src="/posts/HomeLab/images/arch.png" title="A boat at the sea" >}}
