@@ -19,9 +19,7 @@ This sample post tests the followings:
 - Hero image and other images are in `images` folder inside this post directory.
 - Different media rendering like image, tweet, YouTube video, Vimeo video etc.
 
-### Image Sample
-
-![Image1](images/arch.png)
+### HomeLab Architecture
 
 
-{{< img src="/posts/HomeLab/images/arch.png" title="A boat at the sea" >}}
+{{< img src="/posts/HomeLab/images/arch.jpg" title="A boat at the sea" >}}
