@@ -13,11 +13,13 @@ tags: ["Markdown","Content Organization","Multi-lingual"]
 categories: ["Basic"]
 ---
 
-This sample post tests the followings:
+Below is the architecture that i will try to setup
 
-- Category, sub-category nesting in the sidebar.
-- Hero image and other images are in `images` folder inside this post directory.
-- Different media rendering like image, tweet, YouTube video, Vimeo video etc.
+- Hypervisor - `Esxi`
+- Firewall - `pfSense`
+- Guest OS - `Ubuntu` and `Winodws`
+- SIEM - `WAZUH`
+    -  CentOS 
 
 ### HomeLab Architecture
 
