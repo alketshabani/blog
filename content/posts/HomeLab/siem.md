@@ -5,7 +5,7 @@ description: the Setup of Wazuh SIEM and Log aggregation
 menu:
   sidebar:
     name: Wazuh Setup
-    identifier: SIEM
+    identifier: wazuh
     parent: setup
     weight: 10
 
