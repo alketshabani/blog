@@ -9,7 +9,7 @@ menu:
     parent: HomeLab
     weight: 10
 
-tags: ["Markdown","Content Organization","Multi-lingual"]
+tags: ["Homelab","Network","SIEM"]
 categories: ["Basic"]
 ---
 

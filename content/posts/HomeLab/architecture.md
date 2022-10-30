@@ -1,7 +1,7 @@
 ---
 title: "Architecture"
 date: 2022-10-23T08:06:25+06:00
-description: Sample post with multiple images, embedded video ect.
+description: Architecture overview of the HomeLab
 menu:
   sidebar:
     name: Architecture 
@@ -9,7 +9,7 @@ menu:
     parent: HomeLab
     weight: 10
 
-tags: ["Markdown","Content Organization","Multi-lingual"]
+tags: ["Homelab","Network","SIEM"]
 categories: ["Basic"]
 ---
 
