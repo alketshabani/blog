@@ -9,7 +9,7 @@ menu:
     parent: TryHackMe
     weight: 10
 
-tags: ["Markdown","Content Organization","Multi-lingual"]
+tags: ["TryHackMe","Rooms","Red Team"]
 categories: ["Basic"]
 ---
 
