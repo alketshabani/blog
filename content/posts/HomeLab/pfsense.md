@@ -19,17 +19,14 @@ On this post i will cover pfSense configurations made:
 - Firewall rules
 - 
 
-
-
-
-
 ### ESXi setup
 
-Since our homelab is built on top of ESXi also pfsense is stood up there.
-I have allocated 1 vCPU and 1GB of Memory, that should be enough for this setup. I have run pfSense on production environment and is not resource intensive.
+Since our homelab is built on top of ESXi also pfSense is stood up there.
+I have allocated `1 vCPU and 1GB of Memory`, that should be enough for this setup. I have run pfSense on production environment and is not resource intensive.
 
 
 ### Initial Configuration
+
 
 
 ### pfSense interfaces
