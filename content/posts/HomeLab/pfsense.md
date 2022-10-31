@@ -6,7 +6,7 @@ menu:
   sidebar:
     name: pfSense Setup
     identifier: pfsense
-    parent: setup
+    parent: HomeLab
     weight: 10
 
 tags: ["Homelab","Network","pfsense"]
