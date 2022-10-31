@@ -13,10 +13,13 @@ tags: ["Homelab","Network","SIEM"]
 categories: ["Basic"]
 ---
 
-This sample post tests the followings:
+On the following sections i will explain what i have created on my HomeLab,
 
-- Category, sub-category nesting in the sidebar.
-- Hero image and other images are in `images` folder inside this post directory.
-- Different media rendering like image, tweet, YouTube video, Vimeo video etc.
+- Hardware - Dell OptiPlex 7010
+  - Memory - 16 GB
+  - 4 CPUs x Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+  - 256 Gb of SSD Storage
+  - Hypervisor - ESXi-7
 
-### Image Sample
+### Goal
+
