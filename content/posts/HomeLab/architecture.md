@@ -24,4 +24,4 @@ Below is the architecture that i will try to setup
 ### HomeLab Architecture
 
 
-{{< img src="/posts/HomeLab/images/arch.jpg" title="A boat at the sea" >}}
+{{< img src="/posts/HomeLab/images/arch.jpg" title="HomeLab Architecture" >}}
