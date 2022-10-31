@@ -6,20 +6,23 @@ menu:
   sidebar:
     name: Architecture 
     identifier: Architecture
-    parent: HomeLab
+    parent: setup
     weight: 10
 
 tags: ["Homelab","Network","SIEM"]
 categories: ["Basic"]
 ---
 
-Below is the architecture that i will try to setup
+On the following sections i will explain what i have created on my HomeLab,
 
-- Hypervisor - `Esxi`
-- Firewall - `pfSense`
-- Guest OS - `Ubuntu` and `Winodws`
-- SIEM - `WAZUH`
-    -  CentOS 
+- Hardware - Dell OptiPlex 7010
+  - Memory - 16 GB
+  - 4 CPUs x Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+  - 256 Gb of SSD Storage
+  - Hypervisor - ESXi-7
+
+### Goal
+
 
 ### HomeLab Architecture
 

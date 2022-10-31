@@ -6,7 +6,7 @@ menu:
   sidebar:
     name: Network 
     identifier: Network
-    parent: setup
+    parent: HomeLab
     weight: 10
 
 tags: ["Homelab","Network","SIEM"]

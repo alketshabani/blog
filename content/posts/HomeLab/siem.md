@@ -6,7 +6,7 @@ menu:
   sidebar:
     name: Wazuh Setup
     identifier: wazuh
-    parent: setup
+    parent: HomeLab
     weight: 10
 
 tags: ["Homelab","Network","SIEM"]
