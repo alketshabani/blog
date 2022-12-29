@@ -1,6 +1,6 @@
 ---
 title: "Walkthrough - SOC164 - Suspicious Mshta Behavior"
-date: 2022-10-23T08:06:25+06:00
+date: 2022-12-29T08:06:25+06:00
 description: Architecture overview of the HomeLab
 menu:
   sidebar:
