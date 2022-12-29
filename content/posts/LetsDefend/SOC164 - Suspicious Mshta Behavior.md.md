@@ -25,8 +25,9 @@ categories: ["SOC"]
 
 
 {{< img src="/posts/LetsDefend/images/20221229194235.png">}}  
-
-    From the alert we see that it is related with [LolBins](https://lolbas-project.github.io/). LolBins or *Living of the land binaries* are are binaries of a non-malicious nature, local to the operating system, that have been utilised and exploited by cyber criminals and crime groups to camouflage their malicious activity.
+```
+From the alert we see that it is related with [LolBins](https://lolbas-project.github.io/). LolBins or *Living of the land binaries* are are binaries of a non-malicious nature, local to the operating system, that have been utilised and exploited by cyber criminals and crime groups to camouflage their malicious activity.
+```
 
 ## Investigation
 
