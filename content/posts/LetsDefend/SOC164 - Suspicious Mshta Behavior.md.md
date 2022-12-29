@@ -69,27 +69,26 @@ OS: Windows vista, Windows 7, Windows 8, Windows 8.1, Windows 10, Windows 11
 MITRE ATT&CK®: T1218.005: Mshta
 ```
 
-4. Who Performed the Activity?
+## 4. Who Performed the Activity?
 
 {{< img src="/posts/LetsDefend/images/20221229203100.png">}}  
 
-```
-since the parent process is explorer, the user did the activity
-```
 
-5. Containment
+since the parent process is explorer, the user did the activity
+
+
+## 5. Containment
 
 Since there is a malicious activity that took place and the machine could be compromised.
 
-6. Containment 
+## 6. Containment 
 
 {{< img src="/posts/LetsDefend/images/20221229203416.png">}}  
 
-```
-Since we have the known hash of the file, it is recommended that we add this to our artifacts. 
 
+Since we have the known hash of the file, it is recommended that we add this to our artifacts. 
 From the command history we could also see that the script tried to contact a C2 server on 193[.]142[.]58[.]23
-```
+
 
 
 {{< img src="/posts/LetsDefend/images/20221229203848.png">}}  
@@ -98,6 +97,5 @@ From the command history we could also see that the script tried to contact a C2
 
 7. Close the Alert
 
-```
+
 This is the end of this investigation. After you close the investigation you can see in closed alerts how you did.
-```
