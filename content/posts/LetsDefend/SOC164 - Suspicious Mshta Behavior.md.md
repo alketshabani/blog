@@ -25,9 +25,8 @@ categories: ["SOC"]
 
 
 {{< img src="/posts/LetsDefend/images/20221229194235.png">}}  
-```
+
 From the alert we see that it is related with [LolBins](https://lolbas-project.github.io/). LolBins or *Living of the land binaries* are are binaries of a non-malicious nature, local to the operating system, that have been utilised and exploited by cyber criminals and crime groups to camouflage their malicious activity.
-```
 
 ## Investigation
 
@@ -37,7 +36,7 @@ Once we have assigned the alert to ourselves we create an investigation for our 
 
     starting the playbook will walk us through the validation of the alert
 
-1. Identify the Binary
+## 1. Identify the Binary
 
 {{< img src="/posts/LetsDefend/images/20221229200143.png">}}  
 
@@ -45,7 +44,7 @@ In order to find the binary we can use the monitoring tab, and you can see in th
 
 {{< img src="/posts/LetsDefend/images/20221229200554.png">}}  
 
-2. Determine Suspicious Activity
+## 2. Determine Suspicious Activity
 
 {{< img src="/posts/LetsDefend/images/20221229201416.png">}}  
 
@@ -53,13 +52,13 @@ Going to the [LolBas project](https://lolbas-project.github.io/lolbas/Binaries/M
 ```
 mshta.exe evilfile.hta
 ```
-```
+
 Also we can check the MD5 Hash of the file from the Investigations page and upload it in [Virus Total](https://virustotal.com/>}}
-```
+
 {{< img src="/posts/LetsDefend/images/20221229201900.png">}}  
 
 
-3. What Is Suspicious Activity?
+## 3. What Is Suspicious Activity?
 
 ```
 The suspicious activity we can see that is execution
