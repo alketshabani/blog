@@ -1,10 +1,10 @@
 ---
 title: "Walkthrough "	SOC164 - Suspicious Mshta Behavior"
-date: 2022-10-09T08:06:25+06:00
-description: This is a walkthrough for SOC164 in LetsDefend
+date: 2022-10-23T08:06:25+06:00
+description: Architecture overview of the HomeLab
 menu:
   sidebar:
-    name: SOC164
+    name: SOC164 
     identifier: SOC164
     parent: LetsDefend
     weight: 10
@@ -12,7 +12,6 @@ menu:
 tags: ["LetsDefend","BlueTeam","Suspicious Mshta Behavior"]
 categories: ["SOC"]
 ---
-
 # Walkthrough SOC164 Suspicious MSHTA Behavior
 
 ## What is LetsDefend
