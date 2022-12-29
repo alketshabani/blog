@@ -29,7 +29,7 @@ categories: ["SOC"]
 
 <br>
 
-From the alert we see that it is related with [LolBins](https://lolbas-project.github.io/). LolBins or *Living of the land binaries* are are binaries of a non-malicious nature, local to the operating system, that have been utilised and exploited by cyber criminals and crime groups to camouflage their malicious activity.
+From the alert we see that it is related with [LolBins](https://lolbas-project.github.io/). LolBins or *Living of the land binaries* are binaries of a non-malicious nature, local to the operating system, that have been utilised and exploited by cyber criminals and crime groups to camouflage their malicious activity.
 
 ## Investigation
 
@@ -77,14 +77,14 @@ MITRE ATT&CK®: T1218.005: Mshta
 {{< img src="/posts/LetsDefend/images/20221229203100.png">}}  
 
 
-since the parent process is explorer, the user did the activity
+Since the parent process is explorer, the user did the activity
 
 
 ## 5. Containment
 
-Since there is a malicious activity that took place and the machine could be compromised.
+Since there is a malicious activity that took place on the machine it means the machine could be compromised. We have to contain the machine.
 
-## 6. Containment 
+## 6. Adding Artifacts 
 
 {{< img src="/posts/LetsDefend/images/20221229203416.png">}}  
 
