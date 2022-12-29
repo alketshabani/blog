@@ -18,44 +18,44 @@ categories: ["SOC"]
 
 
 > For those who are not familiar [LetsDefend](https://app.letsdefend.io/) is a site mainly focused for BlueTeam professionals and especially SOC members. 
-![](images/20221229193220.png)  
+{{< img src="/posts/LetsDefend/images/20221229193220.png>}}  
 
 
 ## EventID 114
 
 
-![](images/20221229194235.png)  
+{{< img src="/posts/LetsDefend/images/20221229194235.png>}}  
 
-    From the alert we see that it is related with [LolBins](https://lolbas-project.github.io/#). LolBins or *Living of the land binaries* are are binaries of a non-malicious nature, local to the operating system, that have been utilised and exploited by cyber criminals and crime groups to camouflage their malicious activity.
+    From the alert we see that it is related with [LolBins](https://lolbas-project.github.io/). LolBins or *Living of the land binaries* are are binaries of a non-malicious nature, local to the operating system, that have been utilised and exploited by cyber criminals and crime groups to camouflage their malicious activity.
 
 ## Investigation
 
 Once we have assigned the alert to ourselves we create an investigation for our alert.
 
-![](images/20221229195548.png)  
+{{< img src="/posts/LetsDefend/images/20221229195548.png>}}  
 
     starting the playbook will walk us through the validation of the alert
 
 1. Identify the Binary
 
-![](images/20221229200143.png)  
+{{< img src="/posts/LetsDefend/images/20221229200143.png>}}  
 
 In order to find the binary we can use the monitoring tab, and you can see in the Event image it is noted what the binary was. Also if you go to Endpoint Security and search for `Roberto` machine and afterwards go to command history you will see:
 
-![](images/20221229200554.png)  
+{{< img src="/posts/LetsDefend/images/20221229200554.png>}}  
 
 2. Determine Suspicious Activity
 
-![](images/20221229201416.png)  
+{{< img src="/posts/LetsDefend/images/20221229201416.png>}}  
 
 Going to the [LolBas project](https://lolbas-project.github.io/lolbas/Binaries/Mshta/) we can see how mshta can be used for in a malicious manner
 ```
 mshta.exe evilfile.hta
 ```
 ```
-Also we can check the MD5 Hash of the file from the Investigations page and upload it in [Virus Total](https://virustotal.com/)
+Also we can check the MD5 Hash of the file from the Investigations page and upload it in [Virus Total](https://virustotal.com/>}}
 ```
-![](images/20221229201900.png)  
+{{< img src="/posts/LetsDefend/images/20221229201900.png>}}  
 
 
 3. What Is Suspicious Activity?
@@ -71,7 +71,7 @@ MITRE ATT&CK®: T1218.005: Mshta
 
 4. Who Performed the Activity?
 
-![](images/20221229203100.png)  
+{{< img src="/posts/LetsDefend/images/20221229203100.png>}}  
 
 ```
 since the parent process is explorer, the user did the activity
@@ -83,7 +83,7 @@ Since there is a malicious activity that took place and the machine could be com
 
 6. Containment 
 
-![](images/20221229203416.png)  
+{{< img src="/posts/LetsDefend/images/20221229203416.png>}}  
 
 ```
 Since we have the known hash of the file, it is recommended that we add this to our artifacts. 
@@ -92,8 +92,8 @@ From the command history we could also see that the script tried to contact a C2
 ```
 
 
-![](images/20221229203848.png)  
-![](images/20221229204006.png)  
+{{< img src="/posts/LetsDefend/images/20221229203848.png>}}  
+{{< img src="/posts/LetsDefend/images/20221229204006.png>}}  
 
 
 7. Close the Alert
