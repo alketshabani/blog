@@ -76,6 +76,7 @@ MITRE ATT&CK®: T1218.005: Mshta
 {{< img src="/posts/LetsDefend/images/20221229203100.png">}}  
 
 <br>
+
 >Since the parent process is explorer, the user did the activity
 
 
