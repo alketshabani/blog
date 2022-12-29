@@ -26,9 +26,9 @@ categories: ["SOC"]
 
 {{< img src="/posts/LetsDefend/images/20221229194235.png">}}  
 
-```
-From the alert we see that it is related with [LolBins](https://lolbas-project.github.io/).<br> LolBins or *Living of the land binaries* are binaries of a non-malicious nature, <br>local to the operating system, that have been utilised and exploited by cyber <br>criminals and crime groups to camouflage their malicious activity.
-```
+
+From the alert we see that it is related with [LolBins](https://lolbas-project.github.io/). LolBins or *Living of the land binaries* are binaries of a non-malicious nature, local to the operating system, that have been utilised and exploited by cyber criminals and crime groups to camouflage their malicious activity.
+
 
 ## Investigation
 
@@ -41,9 +41,9 @@ Once we have assigned the alert to ourselves we create an investigation for our 
 ## 1. Identify the Binary
 
 {{< img src="/posts/LetsDefend/images/20221229200143.png">}}  
-```
+
 In order to find the binary we can use the monitoring tab, and you can see in the Event image it is noted what the binary was. Also if you go to Endpoint Security and search for `Roberto` machine and afterwards go to command history you will see:
-```
+
 {{< img src="/posts/LetsDefend/images/20221229200554.png">}}  
 
 ## 2. Determine Suspicious Activity
@@ -80,17 +80,17 @@ Since the parent process is explorer, the user did the activity
 
 
 ## 5. Containment
-```
+
 Since there is a malicious activity that took place on the machine it means the machine could be compromised. We have to contain the machine.
-```
+
 ## 6. Adding Artifacts 
 
 {{< img src="/posts/LetsDefend/images/20221229203416.png">}}  
 
-```
-Since we have the known hash of the file, it is recommended that we add this to our <br>artifacts. 
-From the command history we could also see that the script tried to contact a C2 server<br> on 193[.]142[.]58[.]23
-```
+
+Since we have the known hash of the file, it is recommended that we add this to our artifacts. 
+From the command history we could also see that the script tried to contact a C2 server on 193[.]142[.]58[.]23
+
 
 
 {{< img src="/posts/LetsDefend/images/20221229203848.png">}}  
