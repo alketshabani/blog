@@ -16,6 +16,7 @@ categories: ["SOC"]
 
 ## What is LetsDefend
 
+<br>
 
 > For those who are not familiar [LetsDefend](https://app.letsdefend.io/) is a site mainly focused for BlueTeam professionals and especially SOC members. 
 {{< img src="/posts/LetsDefend/images/20221229193220.png">}}  
