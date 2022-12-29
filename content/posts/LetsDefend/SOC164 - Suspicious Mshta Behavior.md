@@ -55,7 +55,7 @@ categories: ["SOC"]
 mshta.exe evilfile.hta
 ```
 
->Also we can check the MD5 Hash of the file from the Investigations page and upload it in [Virus Total](https://virustotal.com/)
+>Also we can check the MD5 Hash of the file from the Investigations page and upload it in [Virus Total](https://www.virustotal.com/gui/file/886095c7861a068d1ee603c71cb161f256941e802e743fe2161f30013947a2f1)
 
 {{< img src="/posts/LetsDefend/images/20221229201900.png">}}  
 
