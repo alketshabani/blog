@@ -42,7 +42,7 @@ Once we have assigned the alert to ourselves we create an investigation for our 
 
 {{< img src="/posts/LetsDefend/images/20221229200143.png">}}  
 ```
-In order to find the binary we can use the monitoring tab, and you can see in the Event <br>image it is noted what the binary was. Also if you go to Endpoint Security and search<br> for `Roberto` machine and afterwards go to command history you will see:
+In order to find the binary we can use the monitoring tab, and you can see in the Event image it is noted what the binary was. Also if you go to Endpoint Security and search for `Roberto` machine and afterwards go to command history you will see:
 ```
 {{< img src="/posts/LetsDefend/images/20221229200554.png">}}  
 
@@ -81,7 +81,7 @@ Since the parent process is explorer, the user did the activity
 
 ## 5. Containment
 ```
-Since there is a malicious activity that took place on the machine it means the machine <br>could be compromised. We have to contain the machine.
+Since there is a malicious activity that took place on the machine it means the machine could be compromised. We have to contain the machine.
 ```
 ## 6. Adding Artifacts 
 
