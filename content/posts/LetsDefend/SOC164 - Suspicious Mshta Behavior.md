@@ -32,11 +32,11 @@ categories: ["SOC"]
 
 ## Investigation
 
-Once we have assigned the alert to ourselves we create an investigation for our alert.
+>Once we have assigned the alert to ourselves we create an investigation for our alert.
 
 {{< img src="/posts/LetsDefend/images/20221229195548.png">}}  
 
-    starting the playbook will walk us through the validation of the alert
+>starting the playbook will walk us through the validation of the alert
 
 ## 1. Identify the Binary
 
@@ -50,7 +50,7 @@ Once we have assigned the alert to ourselves we create an investigation for our 
 
 {{< img src="/posts/LetsDefend/images/20221229201416.png">}}  
 
-Going to the [LolBas project](https://lolbas-project.github.io/lolbas/Binaries/Mshta/) we can see how mshta can be used for in a malicious manner
+>Going to the [LolBas project](https://lolbas-project.github.io/lolbas/Binaries/Mshta/) we can see how mshta can be used for in a malicious manner
 ```
 mshta.exe evilfile.hta
 ```
@@ -75,10 +75,7 @@ MITRE ATT&CK®: T1218.005: Mshta
 
 {{< img src="/posts/LetsDefend/images/20221229203100.png">}}  
 
-<br>
-
 >Since the parent process is explorer, the user did the activity
-
 
 ## 5. Containment
 
@@ -91,7 +88,6 @@ MITRE ATT&CK®: T1218.005: Mshta
 
 >Since we have the known hash of the file, it is recommended that we add this to our artifacts. 
 From the command history we could also see that the script tried to contact a C2 server on 193[.]142[.]58[.]23
-
 
 
 {{< img src="/posts/LetsDefend/images/20221229203848.png">}}  
