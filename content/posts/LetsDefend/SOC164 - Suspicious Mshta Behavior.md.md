@@ -12,7 +12,7 @@ menu:
 tags: ["LetsDefend","BlueTeam","Suspicious Mshta Behavior"]
 categories: ["SOC"]
 ---
-# Walkthrough SOC164 Suspicious MSHTA Behavior
+
 
 ## What is LetsDefend
 
