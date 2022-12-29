@@ -27,7 +27,7 @@ categories: ["SOC"]
 {{< img src="/posts/LetsDefend/images/20221229194235.png">}}  
 
 
-From the alert we see that it is related with [LolBins](https://lolbas-project.github.io/). LolBins or *Living of the land binaries* are binaries of a non-malicious nature, local to the operating system, that have been utilised and exploited by cyber criminals and crime groups to camouflage their malicious activity.
+> From the alert we see that it is related with [LolBins](https://lolbas-project.github.io/). LolBins or *Living of the land binaries* are binaries of a non-malicious nature, local to the operating system, that have been utilised and exploited by cyber criminals and crime groups to camouflage their malicious activity.
 
 
 ## Investigation
@@ -42,7 +42,7 @@ Once we have assigned the alert to ourselves we create an investigation for our 
 
 {{< img src="/posts/LetsDefend/images/20221229200143.png">}}  
 
-In order to find the binary we can use the monitoring tab, and you can see in the Event image it is noted what the binary was. Also if you go to Endpoint Security and search for `Roberto` machine and afterwards go to command history you will see:
+> In order to find the binary we can use the monitoring tab, and you can see in the Event image it is noted what the binary was. Also if you go to Endpoint Security and search for `Roberto` machine and afterwards go to command history you will see:
 
 {{< img src="/posts/LetsDefend/images/20221229200554.png">}}  
 
@@ -55,7 +55,7 @@ Going to the [LolBas project](https://lolbas-project.github.io/lolbas/Binaries/M
 mshta.exe evilfile.hta
 ```
 
-Also we can check the MD5 Hash of the file from the Investigations page and upload it in [Virus Total](https://virustotal.com/>}}
+>Also we can check the MD5 Hash of the file from the Investigations page and upload it in [Virus Total](https://virustotal.com/>}}
 
 {{< img src="/posts/LetsDefend/images/20221229201900.png">}}  
 
@@ -76,19 +76,19 @@ MITRE ATT&CK®: T1218.005: Mshta
 {{< img src="/posts/LetsDefend/images/20221229203100.png">}}  
 
 
-Since the parent process is explorer, the user did the activity
+>Since the parent process is explorer, the user did the activity
 
 
 ## 5. Containment
 
-Since there is a malicious activity that took place on the machine it means the machine could be compromised. We have to contain the machine.
+>Since there is a malicious activity that took place on the machine it means the machine could be compromised. We have to contain the machine.
 
 ## 6. Adding Artifacts 
 
 {{< img src="/posts/LetsDefend/images/20221229203416.png">}}  
 
 
-Since we have the known hash of the file, it is recommended that we add this to our artifacts. 
+>Since we have the known hash of the file, it is recommended that we add this to our artifacts. 
 From the command history we could also see that the script tried to contact a C2 server on 193[.]142[.]58[.]23
 
 
@@ -100,4 +100,4 @@ From the command history we could also see that the script tried to contact a C2
 7. Close the Alert
 
 
-This is the end of this investigation. After you close the investigation you can see in closed alerts how you did.
+>This is the end of this investigation. After you close the investigation you can see in closed alerts how you did.
