@@ -94,7 +94,7 @@ From the command history we could also see that the script tried to contact a C2
 {{< img src="/posts/LetsDefend/images/20221229204006.png">}}  
 
 
-7. Close the Alert
+## 7. Close the Alert
 
 
 >This is the end of this investigation. After you close the investigation you can see in closed alerts how you did.
