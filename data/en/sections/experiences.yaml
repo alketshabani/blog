@@ -11,6 +11,24 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Software company
+    url: ""
+    location: Prague, Czech Republic
+    # company overview
+    overview: security analyst, focused on overall cyber hygiene
+  positions:
+  - designation: Senior Security Analyst
+    start: September 2022
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Incident Response
+    - Vulnerability management
+    - Stakeholder engagement
+    - Cloud security
+    - Endpoint security
+- company:
     name: MSD Czech Republic
     url: "https://www.msd.cz/en/about-us/msd-czech-republic.xhtml"
     location: Prague, Czech Republic
@@ -20,7 +38,7 @@ experiences:
   - designation: Vulnerability Analyst
     start: July 2020
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
+    end: July 2022
     # give some points about what was your responsibilities at the company.
     responsibilities:
     - Vulnerability Research
