@@ -11,15 +11,15 @@ section:
 designation: Vulnerability Analyst
 # your company information
 company:
-  name: MSD Czech Republic.
-  url: "https://www.msd.cz/en/about-us/msd-czech-republic.xhtml"
+  name: --.
+  url: "--"
 
 # your resume. this file path should be relative to you "static" directory
 #resume: "files/resume.pdf"
 
 # a summary about you
 summary: 'I love technology and how it can enable the society achieve great things, and how it can be used for bad purposes as well. 
-My experience in system administration and k8s has really helped to grasp vulnerabilities and security.'
+My experience in system administration and k8s has really helped to grasp vulnerabilities and security in general. The road ahead is long and everchanging'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
