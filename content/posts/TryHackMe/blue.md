@@ -17,6 +17,6 @@ This sample post tests the followings:
 
 - Category, sub-category nesting in the sidebar.
 - Hero image and other images are in `images` folder inside this post directory.
-- Different media rendering like image, tweet, YouTube video, Vimeo video etc.
+- Different media rendering like image, tweet, YouTube video, Vimeo video etc..
 
 ### Image Sample
