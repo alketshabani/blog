@@ -99,9 +99,16 @@ a.group:nth-of-type(3n+2):hover {
   border-radius: 999px !important;
 }
 
-/* Tags / categories rendered as pills -> monospace, bracketed, green accent */
+/* Tags / categories rendered as pills -> monospace, bracketed, green accent.
+   The badge markup is <a><span class="flex">Label</span></a>: the inner span
+   is a block-level flex box inside an inline <a>, so the <a> itself must also
+   become a flex container (inline-flex) or its ::before/::after brackets get
+   pushed onto their own lines above/below instead of sitting inline. */
 a[href*="/tags/"],
 a[href*="/categories/"] {
+  display: inline-flex !important;
+  align-items: center;
+  white-space: nowrap;
   font-family: var(--font-mono);
   letter-spacing: 0.02em;
   color: rgb(var(--green)) !important;
