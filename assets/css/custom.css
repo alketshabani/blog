@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+:root {
+  --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+body {
+  background-image:
+    radial-gradient(1100px 500px at 15% -10%, rgba(79, 216, 255, 0.07), transparent),
+    radial-gradient(900px 500px at 100% 10%, rgba(147, 111, 255, 0.06), transparent);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+h1, h2, h3, h4, h5, h6,
+nav, header .text-2xl, header .text-xl, .navbar-brand {
+  letter-spacing: -0.01em;
+}
+
+/* Header / nav mark */
+header h1, .site-title {
+  font-family: var(--font-mono);
+}
+
+/* Links get a subtle cyan glow on hover instead of the default */
+.prose a,
+article a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color 0.15s ease, text-shadow 0.15s ease;
+}
+.prose a:hover,
+article a:hover {
+  text-shadow: 0 0 10px rgba(79, 216, 255, 0.45);
+}
+
+/* Card-like containers (post cards, tag pills) get a soft glow border on hover */
+a.group:hover,
+.card:hover {
+  box-shadow: 0 0 0 1px rgba(79, 216, 255, 0.35), 0 8px 30px -12px rgba(79, 216, 255, 0.25);
+  transition: box-shadow 0.2s ease;
+}
+
+/* Tags / categories rendered as pills -> monospace, slightly wider tracking */
+a[href*="/tags/"],
+a[href*="/categories/"] {
+  font-family: var(--font-mono);
+  letter-spacing: 0.02em;
+}
+
+/* Code blocks: cyan-tinted surface */
+pre, code {
+  font-family: var(--font-mono);
+}
+pre {
+  border: 1px solid rgba(79, 216, 255, 0.15);
+}
+
+/* Inline "dot" status marker used next to the author/site name in the header, if present */
+.status-dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 999px;
+  background: rgb(79, 216, 255);
+  box-shadow: 0 0 8px rgba(79, 216, 255, 0.9);
+  margin-right: 8px;
+}

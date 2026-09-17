@@ -1,6 +1,6 @@
-colorScheme = "slate"
+colorScheme = "cyan-noir"
 defaultAppearance = "dark"
-autoSwitchAppearance = true
+autoSwitchAppearance = false
 
 enableSearch = true
 enableCodeCopy = true
