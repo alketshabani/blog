@@ -1,0 +1,23 @@
+label = "English"
+locale = "en-us"
+weight = 1
+title = "Alket Shabani"
+
+[params]
+  displayName = "English"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  description = "Portfolio and personal blog of Alket Shabani — security analyst writing about homelabs, incident response and cloud security."
+
+[params.author]
+  name = "Alket Shabani"
+  email = "alketshabani@outlook.com"
+  image = "images/author/avatar.jpeg"
+  headline = "Senior Security Analyst"
+  bio = "I love technology and how it can enable society to achieve great things, and how it can be used for bad purposes as well. My experience in system administration and Kubernetes has really helped me grasp vulnerabilities and security in general. The road ahead is long and ever-changing."
+  links = [
+    { github = "https://www.github.com/alketshabani" },
+    { linkedin = "https://www.linkedin.com/in/alketshabani" },
+    { email = "mailto:alketshabani@outlook.com" },
+  ]

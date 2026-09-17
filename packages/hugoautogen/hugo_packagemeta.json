@@ -1,31 +1,31 @@
 {
-  "sum": "4361f74c13e63b12",
+  "sum": "bb55ecd555f4898c",
   "dependencySources": {
-    "dependencies": {},
+    "dependencies": {
+      "@headlessui/react": "github.com/nunocoracao/blowfish/v3",
+      "@heroicons/react": "github.com/nunocoracao/blowfish/v3",
+      "@tailwindcss/forms": "github.com/nunocoracao/blowfish/v3",
+      "commander": "github.com/nunocoracao/blowfish/v3"
+    },
     "devDependencies": {
-      "@fontsource/mulish": "github.com/hugo-toha/toha/v4",
-      "@fortawesome/fontawesome-free": "github.com/hugo-toha/toha/v4",
-      "bootstrap": "github.com/hugo-toha/toha/v4",
-      "eslint": "github.com/hugo-toha/toha/v4",
-      "eslint-config-prettier": "github.com/hugo-toha/toha/v4",
-      "eslint-config-standard": "github.com/hugo-toha/toha/v4",
-      "eslint-plugin-import": "github.com/hugo-toha/toha/v4",
-      "eslint-plugin-n": "github.com/hugo-toha/toha/v4",
-      "eslint-plugin-no-jquery": "github.com/hugo-toha/toha/v4",
-      "eslint-plugin-promise": "github.com/hugo-toha/toha/v4",
-      "feather-icons": "github.com/hugo-toha/toha/v4",
-      "filterizr": "github.com/hugo-toha/toha/v4",
-      "flag-icons": "github.com/hugo-toha/toha/v4",
-      "fuse.js": "github.com/hugo-toha/toha/v4",
-      "highlight.js": "github.com/hugo-toha/toha/v4",
-      "imagesloaded": "github.com/hugo-toha/toha/v4",
-      "include-media": "github.com/hugo-toha/toha/v4",
-      "katex": "github.com/hugo-toha/toha/v4",
-      "mark.js": "github.com/hugo-toha/toha/v4",
-      "mermaid": "github.com/hugo-toha/toha/v4",
-      "plyr": "github.com/hugo-toha/toha/v4",
-      "popper.js": "github.com/hugo-toha/toha/v4",
-      "typeit": "github.com/hugo-toha/toha/v4"
+      "@tailwindcss/cli": "github.com/nunocoracao/blowfish/v3",
+      "@tailwindcss/typography": "github.com/nunocoracao/blowfish/v3",
+      "chart.js": "github.com/nunocoracao/blowfish/v3",
+      "fuse.js": "github.com/nunocoracao/blowfish/v3",
+      "katex": "github.com/nunocoracao/blowfish/v3",
+      "lite-youtube-embed": "github.com/nunocoracao/blowfish/v3",
+      "medium-zoom": "github.com/nunocoracao/blowfish/v3",
+      "mermaid": "github.com/nunocoracao/blowfish/v3",
+      "packery": "github.com/nunocoracao/blowfish/v3",
+      "prettier": "github.com/nunocoracao/blowfish/v3",
+      "prettier-plugin-go-template": "github.com/nunocoracao/blowfish/v3",
+      "puppeteer": "github.com/nunocoracao/blowfish/v3",
+      "rimraf": "github.com/nunocoracao/blowfish/v3",
+      "tailwind-scrollbar": "github.com/nunocoracao/blowfish/v3",
+      "tailwindcss": "github.com/nunocoracao/blowfish/v3",
+      "tw-elements": "github.com/nunocoracao/blowfish/v3",
+      "typeit": "github.com/nunocoracao/blowfish/v3",
+      "vendor-copy": "github.com/nunocoracao/blowfish/v3"
     }
   }
 }

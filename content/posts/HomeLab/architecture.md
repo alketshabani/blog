@@ -2,12 +2,6 @@
 title: "Architecture"
 date: 2022-10-23T08:06:25+06:00
 description: Architecture overview of the HomeLab
-menu:
-  sidebar:
-    name: Architecture 
-    identifier: Architecture
-    parent: HomeLab
-    weight: 10
 
 tags: ["Homelab","Network","SIEM"]
 categories: ["Basic"]
@@ -27,4 +21,4 @@ On the following sections i will explain what i have created on my HomeLab,
 ### HomeLab Architecture
 
 
-{{< img src="/posts/HomeLab/images/arch.jpg" title="HomeLab Architecture" >}}
+![HomeLab Architecture](/posts/HomeLab/images/arch.jpg)

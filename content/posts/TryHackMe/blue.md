@@ -2,12 +2,6 @@
 title: "Blue"
 date: 2022-10-09T08:06:25+06:00
 description: Sample post with multiple images, embedded video ect.
-menu:
-  sidebar:
-    name: Blue 
-    identifier: blue
-    parent: TryHackMe
-    weight: 10
 
 tags: ["Markdown","Content Organization","Multi-lingual"]
 categories: ["Basic"]

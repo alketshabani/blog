@@ -2,12 +2,6 @@
 title: "Red Team Threat Intel"
 date: 2022-10-09T08:06:25+06:00
 description: Sample post with multiple images, embedded video ect.
-menu:
-  sidebar:
-    name: Red Team Threat Intel 
-    identifier: rtti
-    parent: TryHackMe
-    weight: 10
 
 tags: ["TryHackMe","Rooms","Red Team"]
 categories: ["Basic"]

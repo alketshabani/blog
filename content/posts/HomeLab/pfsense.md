@@ -2,12 +2,6 @@
 title: "pfSense Setup"
 date: 2022-10-31T08:06:25+06:00
 description: Sample post with multiple images, embedded video ect.
-menu:
-  sidebar:
-    name: pfSense Setup
-    identifier: pfsense
-    parent: HomeLab
-    weight: 10
 
 tags: ["Homelab","Network","pfsense"]
 categories: ["Basic"]
@@ -41,7 +35,7 @@ I have allocated `1 vCPU and 1GB of Memory`, that should be enough for this setu
 1. Go to Interfaces -> VLANs and create your VLANs
 2. Parent interface of all of your VLANs will be LAN interface
 
-{{< img src="/posts/HomeLab/images/vlans.png" title="pfSense interfaces" >}}
+![pfSense interfaces](/posts/HomeLab/images/vlans.png)
 
 3. Go to Interfaces -> Assignments and there you will see the new created VLANs.
 4. After that the interfaces will show as below
@@ -49,4 +43,4 @@ I have allocated `1 vCPU and 1GB of Memory`, that should be enough for this setu
 
 ### pfSense interfaces
 
-{{< img src="/posts/HomeLab/images/pfsense.png" title="pfSense interfaces" >}}
+![pfSense interfaces](/posts/HomeLab/images/pfsense.png)
