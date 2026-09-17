@@ -1,11 +1,8 @@
 ---
-title: "About"
+title: "Alket Shabani — CV"
 description: "Security analyst working across incident response, vulnerability management and cloud security."
-showDate: false
-showAuthor: true
-showReadingTime: false
-showWordCount: false
-showTableOfContents: true
+aliases:
+  - /about/
 ---
 
 I love technology and how it can enable society to achieve great things — and how it can be used for bad purposes as well. My experience in system administration and Kubernetes has really helped me grasp vulnerabilities and security in general. The road ahead is long and ever-changing.
